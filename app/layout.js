@@ -5,6 +5,7 @@ import Header from "@/components/header";
 import { ClerkProvider } from "@clerk/nextjs";
 import { dark } from "@clerk/themes"
 import { Toaster } from "@/components/ui/sonner";
+import Link from "next/link";
 
 const inter= Inter({
   subsets: ["latin"]
@@ -70,21 +71,21 @@ export default function RootLayout({ children }) {
                 <div className="space-y-4">
                   <h3 className="font-semibold text-foreground">Navigation</h3>
                   <nav className="flex flex-col space-y-2">
-                    <a href="/" className="text-muted-foreground hover:text-foreground transition-colors text-sm hover:translate-x-1 transform duration-200">
+                    <Link href="/" className="text-muted-foreground hover:text-foreground transition-colors text-sm hover:translate-x-1 transform duration-200">
                       Home
-                    </a>
-                    <a href="/dashboard" className="text-muted-foreground hover:text-foreground transition-colors text-sm hover:translate-x-1 transform duration-200">
+                    </Link>
+                    <Link href="/dashboard" className="text-muted-foreground hover:text-foreground transition-colors text-sm hover:translate-x-1 transform duration-200">
                       Dashboard
-                    </a>
-                    <a href="/resume" className="text-muted-foreground hover:text-foreground transition-colors text-sm hover:translate-x-1 transform duration-200">
+                    </Link>
+                    <Link href="/resume" className="text-muted-foreground hover:text-foreground transition-colors text-sm hover:translate-x-1 transform duration-200">
                       Resume Builder
-                    </a>
-                    <a href="/ai-cover-letter" className="text-muted-foreground hover:text-foreground transition-colors text-sm hover:translate-x-1 transform duration-200">
+                    </Link>
+                    <Link href="/ai-cover-letter" className="text-muted-foreground hover:text-foreground transition-colors text-sm hover:translate-x-1 transform duration-200">
                       Cover Letter
-                    </a>
-                    <a href="/interview" className="text-muted-foreground hover:text-foreground transition-colors text-sm hover:translate-x-1 transform duration-200">
+                    </Link>
+                    <Link href="/interview" className="text-muted-foreground hover:text-foreground transition-colors text-sm hover:translate-x-1 transform duration-200">
                       Interview Prep
-                    </a>
+                    </Link>
                   </nav>
                 </div>
 
@@ -118,9 +119,9 @@ export default function RootLayout({ children }) {
                   &copy; {new Date().getFullYear()} AI Career Coach. All rights reserved.
                 </div>
                 <div className="flex items-center gap-6 text-sm text-muted-foreground">
-                  <a href="/privacy" className="hover:text-foreground transition-colors">Privacy Policy</a>
-                  <a href="/terms" className="hover:text-foreground transition-colors">Terms of Service</a>
-                  <a href="/support" className="hover:text-foreground transition-colors">Support</a>
+                  <Link href="/privacy" className="hover:text-foreground transition-colors">Privacy Policy</Link>
+                  <Link href="/terms" className="hover:text-foreground transition-colors">Terms of Service</Link>
+                  <Link href="/support" className="hover:text-foreground transition-colors">Support</Link>
                 </div>
               </div>
             </div>
