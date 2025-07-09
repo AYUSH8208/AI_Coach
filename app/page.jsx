@@ -15,7 +15,6 @@ export default function Home() {
       <div className="grid-background"></div>
       <HeroSection />
 
-    // Features Section
       <section className="w-full py-12 md:py-24 lg:py-32 bg-background">
         <div className="container mx-auto px-4 md:px-6">
           <h2 className="text-3xl font-bold tracking-tighter text-center mb-12">
@@ -42,7 +41,6 @@ export default function Home() {
         </div>
       </section>
 
-    // Statistics Section        
       <section className="w-full py-12 md:py-24 bg-muted/50">
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto text-center">
@@ -66,7 +64,6 @@ export default function Home() {
         </div>
       </section>
 
-    // How It Works Section        
       <section className="w-full py-12 md:py-24 bg-background">
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center max-w-3xl mx-auto mb-12">
@@ -93,7 +90,6 @@ export default function Home() {
         </div>
       </section>
 
-    // Testimonials Section        
       <section className="w-full py-12 md:py-24 bg-muted/50">
         <div className="container mx-auto px-4 md:px-6">
           <h2 className="text-3xl font-bold text-center mb-12">
@@ -143,7 +139,6 @@ export default function Home() {
         </div>
       </section>
       
-    // FAQ Section
       <section className="w-full py-12 md:py-24">
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center max-w-3xl mx-auto mb-12">
@@ -170,7 +165,6 @@ export default function Home() {
         </div>
       </section>
       
-    //Call to Action Section          
       <section className="w-full">
         <div className="mx-auto py-24 gradient rounded-lg">
           <div className="flex flex-col items-center justify-center space-y-4 text-center max-w-3xl mx-auto">
