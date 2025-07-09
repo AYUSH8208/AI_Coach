@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 AI Career Coach
 
-## Getting Started
+Empower your job search journey with cutting-edge AI tools for resumes, cover letters, and interview preparation. AI Career Coach is your all-in-one platform to build, enhance, and showcase your professional profile with the help of artificial intelligence.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🌐 Live Website
+[Visit AI Career Coach](https://your-deployed-site-link.com)
+
+---
+
+## ✨ Features
+- **AI-Powered Resume Builder:** Instantly generate and optimize your resume with AI suggestions.
+- **Personalized Cover Letters:** Create tailored cover letters for every job application.
+- **Interview Preparation:** Practice with AI-driven mock interviews and get performance feedback.
+- **Dashboard:** Track your progress and manage your documents in one place.
+- **Onboarding:** Seamless onboarding to personalize your experience.
+
+---
+
+## 🛠️ Tech Stack
+- **Framework:** Next.js 15 (App Router)
+- **Styling:** Tailwind CSS
+- **Authentication:** Clerk
+- **Database:** Prisma + (your DB, e.g., PostgreSQL)
+- **AI Integrations:** (Describe if using OpenAI, etc.)
+
+---
+
+## 🚦 Getting Started
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/ai-career-coach.git
+   cd ai-career-coach/AI
+   ```
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+3. **Set up environment variables:**
+   - Copy `.env.example` to `.env.local` and fill in your credentials.
+4. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+5. **Open [http://localhost:3000](http://localhost:3000) in your browser.**
+
+---
+
+## 📁 Project Structure
+```
+AI/
+  ├── actions/           # Server actions (user, resume, cover letter, etc.)
+  ├── app/               # Next.js app directory (pages, layouts, components)
+  ├── components/        # Shared UI components
+  ├── hooks/             # Custom React hooks
+  ├── lib/               # Utilities, Prisma, and helper functions
+  ├── prisma/            # Prisma schema and migrations
+  ├── public/            # Static assets
+  └── ...
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 📣 Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📄 License
+[MIT](LICENSE)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🌟 Credits
+- Built with ❤️ using Next.js, Tailwind CSS, and Prisma.
+- Special thanks to all contributors and the open-source community.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+> **Replace `https://your-deployed-site-link.com` above with your actual deployed website URL!**
